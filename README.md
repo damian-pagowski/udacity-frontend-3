@@ -8,14 +8,6 @@ This project requires you to create an asynchronous web app that uses Web API an
 ```bash
 npm install
 ```
-App using environment variables to run:
-- API_KEY
-- API_URL
-
-They can be provided in .env file:
-```bash
-API_KEY={YOUR_API_KEY}
-API_URL=http://api.openweathermap.org/data/2.5/weather
 
 ```
 
@@ -29,11 +21,12 @@ npm start
 ### GET / 
 - serves index.html
 
+### GET /all 
+- returns all app data
 
-### POST / 
-- returns weather data for location identified with zip code (example: 94040,us)
-- request parameters: zip, feelings. 
 
+### POST /add 
+- add new record to app data
 
 
 ## Extras
